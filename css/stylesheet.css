@@ -8,7 +8,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 40px;
-  left: 10px;
+  left: 15px;
   background: #373c47;
   overflow-x: hidden;
   padding:10px 0;
@@ -36,11 +36,17 @@ body {
 
 .content {
   margin-left: 36px;
+  margin-bottom: 40px;
 }
 
 
-.content img {
+#keyboard {
+  width: 300px;
+}
+
+#social {
   width: 75px;
   height: 35px;
   object-fit: contain;
+
 }
