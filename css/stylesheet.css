@@ -1,7 +1,6 @@
 body {
   font-family: 'Spline Sans Mono';
   background-color: #282c34;
-
 }
 .sidebar {
   width: 200px;
@@ -37,6 +36,7 @@ body {
 .content {
   margin-left: 36px;
   margin-bottom: 40px;
+  margin-right: 30%;
 }
 
 
@@ -49,4 +49,11 @@ body {
   height: 35px;
   object-fit: contain;
 
+}
+
+#links {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+  margin-top: 10px;
 }
