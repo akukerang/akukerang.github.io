@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 body {
   font-family: "Spline Sans Mono";
   background-color: #282c34;
@@ -58,13 +60,19 @@ body {
   width: 75px;
   height: 35px;
   object-fit: contain;
+  fill:#abb2bf;
 }
 
 #links {
+  fill:#abb2bf;
   width: 60px;
   height: 35px;
   object-fit: contain;
   margin-top: 10px;
+}
+
+a {
+  text-decoration:none;
 }
 
 .collapsible {
