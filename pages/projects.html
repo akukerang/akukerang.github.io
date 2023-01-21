@@ -4,11 +4,22 @@
 <head>
     <title>akukerang</title>
     <link href='https://fonts.googleapis.com/css?family=Spline Sans Mono' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/stylesheet.css">
-
+    <link rel= "stylesheet" type="text/css" media= "only screen and (max-device-width: 480px)" href="../css/stylesheet-mobile.css">
+    <link rel = "stylesheet" type="text/css" media = "only screen and (min-device-width: 480px)" href="../css/stylesheet.css">
+    <script src="/scripts/scripts.js"></script> 
 </head>
-
 <body>
+    <div id="mobile-nav">
+        <button id="drop-btn" onclick="toggleDropdown()">
+            <i class="bi bi-list"></i>            
+        </button>
+        <div id ="drop-content">
+            <a href="/">home</a>
+            <a href="/pages/projects">projects</a>
+            <a href="/pages/keyboards">keyboards</a>
+            <a href="/pages/music">music</a>
+        </div>
+    </div>
     <div class="sidebar">
         <a href="/">home</a>
         <a href="/pages/projects">projects</a>

@@ -15,6 +15,10 @@ body {
   padding: 10px 0;
 }
 
+#mobile-nav{
+  display: none;
+}
+
 .sidebar a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
@@ -60,11 +64,11 @@ body {
   width: 75px;
   height: 35px;
   object-fit: contain;
-  fill:#abb2bf;
+  fill: #abb2bf;
 }
 
 #links {
-  fill:#abb2bf;
+  fill: #abb2bf;
   width: 60px;
   height: 35px;
   object-fit: contain;
@@ -72,7 +76,7 @@ body {
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .collapsible {
@@ -89,22 +93,19 @@ a {
   font-size: 32px;
   font-weight: 600;
 }
-#button-img{
+#button-img {
   height: 20px;
   margin-left: 18px;
-  top:1px;
+  top: 1px;
   position: relative;
 }
 
-
 .collapsible:hover {
   color: #8c8c8c;
-
 }
 
-.project-section{
+.project-section {
   margin-left: 5px;
   display: none;
   overflow: hidden;
 }
-
